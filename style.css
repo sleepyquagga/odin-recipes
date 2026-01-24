@@ -14,6 +14,7 @@ body {
     margin: 24px auto;
     display: block;
     background-color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .recipe-card, .recipe-language, .page-title, .page-subtitle {
@@ -25,16 +26,6 @@ body {
 
 h1, h2 {
     color: cornsilk;
-}
-
-.page-title {
-    font-family: "Brush Script MT", sans-serif;
-    font-size: 64px;
-    filter:drop-shadow(2px 2px #00000030);
-}
-
-.page-subtitle {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .ingredients, .instructions, .other-information, .recipe-card {
@@ -59,6 +50,16 @@ ul, ol {
     margin-left: 24px
 }
 
+.page-title {
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 64px;
+    filter:drop-shadow(2px 2px #00000030);
+}
+
+.page-subtitle {
+
+}
+
 .recipe-card {
     list-style: none;
     color: #CCAF8080;
@@ -70,4 +71,18 @@ ul, ol {
 
 .recipe-card a:hover {
     color: #B37C24;
+}
+
+.source, .back-to-index {
+    background-color: #B37C24;
+    color: cornsilk;
+    margin: 0 auto;
+    padding: 20px;
+    width: 40%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.source a, .back-to-index a {
+    color: blanchedalmond
 }

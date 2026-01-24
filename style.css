@@ -28,11 +28,6 @@ h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.recipe-card {
-    list-style: none;
-    color: #CCAF8080;
-}
-
 .ingredients, .instructions, .other-information, .recipe-card {
     width: 70%;
     margin: 40px auto;
@@ -46,16 +41,22 @@ h1, h2 {
     font-size: 18px;
 }
 
-.ingredients h2{
+.ingredients h2, .instructions h2, .other-information h2 {
     color: #CCAF80;
+    margin-bottom: 12px;
 }
 
-.instructions h2 {
-    color: #CCAF80;
+.ingredients h3, .instructions h3, .other-information h3 {
+    margin-top: 24px;
 }
 
-.other-information h2 {
-    color: #CCAF80;
+ul, ol {
+    margin-left: 24px
+}
+
+.recipe-card {
+    list-style: none;
+    color: #CCAF8080;
 }
 
 .recipe-card a {
